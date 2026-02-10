@@ -129,6 +129,7 @@ p {
   text-align: center;
   gap: 50px;
 }
+
 .layout__container {
   border: #000000 solid 1px;
   background-color: #eeeff1;
@@ -147,6 +148,29 @@ p {
 .layout__title {
   font-size: 32px;
   font-weight: 500;
+}
+
+.layout__paragraph {
+  font-size: 16px;
+  color: #727272;
+  text-align: center;
+}
+.layout--foto {
+  position: relative;
+}
+
+.background-img {
+  max-width: 1110px;
+  max-height: 600px;
+  display: block;
+}
+.top-img {
+  max-width: 100px;
+  max-height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .container {
