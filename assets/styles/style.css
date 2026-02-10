@@ -178,11 +178,17 @@ p {
   text-align: center;
 }
 
+.content_group {
+  display: inline-block;
+  justify-content: space-between;
+  gap: 25px;
+}
+
 .Group-box {
   display: inline-block;
   box-sizing: border-box;
-  gap: 100px;
-  margin: 40px;
+  gap: 25px;
+  padding: 100px 50px;
 }
 
 .group {
