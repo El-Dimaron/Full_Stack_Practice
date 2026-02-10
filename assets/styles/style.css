@@ -129,6 +129,25 @@ p {
   text-align: center;
   gap: 50px;
 }
+.layout__container {
+  border: #000000 solid 1px;
+  background-color: #eeeff1;
+}
+.layout__block {
+  max-width: 540px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.64;
+  gap: 50px;
+  padding: 100px;
+}
+.layout__title {
+  font-size: 32px;
+  font-weight: 500;
+}
 
 .container {
   background-color: #34547a;
