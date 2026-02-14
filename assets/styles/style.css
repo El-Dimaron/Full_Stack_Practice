@@ -267,6 +267,7 @@ p {
   .about__container {
     gap: 16px;
   }
+
 }
 
 @media screen and (max-width: 375px) {
