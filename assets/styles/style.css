@@ -52,7 +52,7 @@ body {
 }
 
 .promo-section {
-  height: 364px;
+  /* height: 364px;  */ /* прибрав фіксовану висоту, бо вона трішки ломає логіку */
   padding-block: 5rem;
   display: flex;
   flex-direction: column;
@@ -267,7 +267,6 @@ p {
   .about__container {
     gap: 16px;
   }
-
 }
 
 @media screen and (max-width: 375px) {
