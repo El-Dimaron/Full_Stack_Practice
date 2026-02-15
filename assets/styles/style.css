@@ -199,6 +199,7 @@ p {
   display: flex;
   justify-content: space-between;
   gap: 25px;
+  flex-wrap: wrap;
 }
 
 .stats__item {
@@ -273,6 +274,15 @@ p {
   .content {
     padding-inline: 12px;
   }
+
+  .stats__item {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .stats__content {
+    text-align: center;
+  }
 }
 
 .menu-toggle {
@@ -294,6 +304,11 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .stats__item {
+    width: calc(50% - 12.5px);
+    padding: 40px 0;
+  }
+
   .nav-wrapper {
     display: flex;
     align-items: center;
