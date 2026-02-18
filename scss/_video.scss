@@ -1,0 +1,55 @@
+@use "vars";
+
+.video {
+  background-color: vars.$color-surface-primary;
+  &__container {
+    max-width: 540px;
+    display: vars.$display-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1.64;
+    gap: 50px;
+    padding-block: 100px;
+  }
+
+  &__title {
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  &__paragraph {
+    font-size: 16px;
+    color: vars.$color-text-secondary;
+    text-align: center;
+  }
+
+  &__foto {
+    position: relative;
+  }
+
+  &__foto::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: vars.$colors-foto_before;
+    pointer-events: none;
+  }
+}
+
+.background-img {
+  max-width: 100%;
+  display: block;
+  fill: vars.$color-text-primary;
+}
+
+.top-img {
+  width: 6.25rem;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+

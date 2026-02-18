@@ -1,0 +1,18 @@
+@use "vars";
+@use "main";
+@use "promo";
+@use "about";
+@use "video";
+@use "layout";
+@use "stats";
+@use "footer";
+@use "request";
+@use "mixins";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+html,
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+

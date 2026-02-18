@@ -1,0 +1,38 @@
+@use "vars/colors";
+@use "vars/display";
+.stats {
+  background-color: colors.$color-blue-700;
+  text-align: center;
+  &__item {
+    display: display.$display-flex;
+    box-sizing: border-box;
+    gap: 20px;
+    padding: 100px 0;
+  }
+
+  &__content {
+    display: display.$display-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 4px;
+    color: colors.$color-text-tertiary;
+    text-align: left;
+    float: right;
+  }
+
+  &__number {
+    font-size: 21px;
+  }
+
+  &__label {
+    font-size: 16px;
+  }
+}
+
+.content_group {
+  display: display.$display-flex;
+  justify-content: space-between;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+

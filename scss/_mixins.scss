@@ -1,0 +1,8 @@
+@mixin navigation {
+  /*застосовано у файлі "layout.scss"*/
+  justify-content: flex-start;
+  text-transform: uppercase;
+  padding-block: 5rem;
+  gap: 50px;
+}
+
