@@ -1,0 +1,40 @@
+@use "global";
+@use "sass:color";
+
+.block_consultations {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+
+.consultations_group {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.consultations_png {
+  width: 56px;
+  height: 56px;
+  margin: 10px auto;
+
+}
+
+.consultations_title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+.consultations_paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}

@@ -1,0 +1,65 @@
+@use "global";
+@use "sass:color";
+
+.about {
+  width: 100%;
+  min-height: 450px;
+  background-image: url("../../../assets/images/logo/about.jpg");
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+  }
+
+  &__text {
+    justify-content: flex-start;
+  }
+
+  &__title {
+    width: 230px;
+    height: 54px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+  }
+
+  &__paragraph {
+    width: 570px;
+    height: 150px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    margin: 20px auto;
+  }
+  &__button-question {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    min-width: 250px;
+    height: 40px;
+    border: 2px solid #2d5e5e;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin: 15px;
+  }
+  &__button-want-consultation {
+    padding: 8px;
+    min-width: 250px;
+    border: 2px solid #2d5e5e;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin: 15px;
+  }
+}

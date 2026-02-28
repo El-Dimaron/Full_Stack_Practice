@@ -65,8 +65,10 @@ h3 {
 .hero__background {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: 0;
   position: absolute;
   top: 0;
@@ -229,85 +231,30 @@ button {
 }*/
 .about {
   width: 100%;
-  min-height: 450px;
+  height: 450px;
   background-image: url("../../../assets/images/logo/about.jpg");
-  display: flex;
-  justify-content: center;
-}
-.about__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 200px;
-}
-.about__text {
-  justify-content: flex-start;
-}
-.about__title {
-  width: 230px;
-  height: 54px;
-  font-size: 36px;
-  font-weight: 700;
-  text-align: left;
-  color: white;
-}
-.about__paragraph {
-  width: 570px;
-  height: 150px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  color: white;
-  margin: 20px auto;
-}
-.about__button-question {
-  background: rgba(0, 0, 0, 0.1);
-  padding: 8px;
-  min-width: 250px;
-  height: 40px;
-  border: 2px solid #2d5e5e;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Montserrat";
-  margin: 15px;
-}
-.about__button-want-consultation {
-  padding: 8px;
-  min-width: 250px;
-  border: 2px solid #2d5e5e;
-  height: 40px;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Montserrat";
-  margin: 15px;
 }
 
 .block_consultations {
   width: 100%;
   height: 250px;
-  display: flex;
-  justify-content: center;
-  gap: 90px;
+  display: block;
+  flex-direction: row;
 }
 
 .consultations_group {
   width: 300px;
   height: 250px;
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
 }
 
 .consultations_png {
   width: 56px;
   height: 56px;
-  margin: 10px auto;
+  margin: 0 auto;
 }
 
 .consultations_title {
@@ -315,6 +262,7 @@ button {
   font-weight: 700;
   line-height: 24px;
   text-align: center;
+  margin-top: 16px;
 }
 
 .consultations_paragraph {
@@ -322,6 +270,5 @@ button {
   font-weight: 400;
   line-height: 24px;
   text-align: center;
-}
-
-/*# sourceMappingURL=style.css.map */
+  margin-top: 8px;
+}/*# sourceMappingURL=style.css.map */
