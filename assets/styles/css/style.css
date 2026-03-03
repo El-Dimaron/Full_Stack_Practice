@@ -180,4 +180,10 @@ h6 {
   flex-direction: column;
 }
 
+.news__block--alle,
+.arrow__left,
+.arrow__right:hover {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
